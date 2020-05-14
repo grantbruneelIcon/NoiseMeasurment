@@ -1,3 +1,4 @@
+# Noise Measurement
 Written by Grant Bruneel 
 Last Edit 4/2/2020 by Grant Bruneel
 
@@ -6,10 +7,6 @@ Required Libraries:
 -sounddevice
 -scipy
 -playsound
-
-To install these Libraries:
-In a PYTHON terminal run pip install (library name)
-Depending on the IDE being used, you may have to first initialize a virtual enviornment (.venv)
 
 Functions:
 Most all useful functions have been written in All.py
@@ -20,9 +17,11 @@ decibel and frequency level's are created.
 
 inputs:
 boolean show; the default is False and the graph will not show after the graph is saved. True will pop up a window showing the graph
+
 Termninal input:
 Name to save the sound and graph files
 Time in seconds to take the sample (The recording starts right after this is entered)
+
 outputs:
 wav file recording of the sound
 png file of the graph
@@ -33,8 +32,10 @@ This allows you to choose a already recorded wav file to create a graph. To do t
 
 inputs:
 boolean show; the default is False and the graph will not show after the graph is saved. True will pop up a window showing the graph
+
 Terminal input:
 Name of the sound file to be produced in a graph
+
 outputs:
 png file of the sound graph
 
